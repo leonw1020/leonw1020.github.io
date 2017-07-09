@@ -1,7 +1,7 @@
 #content{
-  width: 1080px;
+  width: 900px;
   height: 600px;
-  margin: 20px auto;
+  margin: 20px auto 0 auto;
   /*border: 1px solid gray;
   border-radius: 10px;*/
   position: relative;
@@ -9,7 +9,7 @@
 }
 
 #animals{
-  width: 1080px;
+  width: 900px;
   height: 200px;
   position: absolute;
   top: 0;
@@ -32,13 +32,33 @@
 }
 
 .drop{
-  height: 120px;
-  width: 200px;
+  height: 100px;
+  width: 154px;
   font-size: 1.2em;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 54px;
+  /*padding-right: 20px;*/
+  display: inline-block;
+  /*position: absolute;*/
+  bottom: 0;
+  margin-right: 20px;
 
 }
+
+.drag{
+
+  width: 154px;
+  height: 154px;
+  margin-right: 20px;
+  background-size: 100% 100%, contain;
+  /*position: absolute;*/
+  display: inline-block;
+}
+
+/*.drag:after{
+  display: block;
+  padding-bottom: 100%;
+}*/
 
 #success{
   width: 0;
@@ -77,7 +97,7 @@ a{
 
 
 #boxes{
-  width: 1080px;
+  width: 900px;
   height: 200px;
   position: absolute;
   bottom: 0;
@@ -86,85 +106,87 @@ a{
 }
 
 #draggableFox{
-  width: 200px;
-  height: 200px;
+  /*width: 200px;
+  height: 200px;*/
   background-image: url("fennec.jpg") ;
-  background-size: 200px 200px;
-  position: absolute;
+  /*background-size: auto contain;
+  position: absolute;*/
   top: 0;
   left: 0;
 }
 
 #draggableCamel{
-  width: 200px;
-  height: 200px;
+  /*width: 200px;
+  height: 200px;*/
   background-image: url("camel.jpg") ;
-  background-size: 200px 200px;
-  position: absolute;
+  /*background-size: 200px 200px;
+  position: absolute;*/
   top: 0;
-  left: 220px;
+  margin-right: 0;
+  /*left: 220px;*/
 }
 
 #draggableLizard{
-  width: 200px;
-  height: 200px;
+  /*width: 200px;
+  height: 200px;*/
   background-image: url("lizard.jpg") ;
-  background-size: 200px 200px;
-  position: absolute;
+  /*background-size: 200px 200px;
+  position: absolute;*/
   top: 0;
-  left: 440px;
+  /*left: 440px;*/
 }
 
 #draggableMeerkat{
-  width: 200px;
-  height: 200px;
+  /*width: 200px;
+  height: 200px;*/
   background-image: url("meerkat.jpg") ;
-  background-size: 200px 200px;
-  position: absolute;
+  /*background-size: 200px 200px;
+  position: absolute;*/
   top: 0;
-  left: 660px;
+
+  /*left: 660px;*/
 }
 
 #draggableBeetle{
-  width: 200px;
-  height: 200px;
+  /*width: 200px;
+  height: 200px;*/
   background-image: url("beetle.jpg") ;
-  background-size: 200px 200px;
-  position: absolute;
+  /*background-size: 200px 200px;
+  position: absolute;*/
   top: 0;
-  left: 880px;
+  /*left: 880px;*/
 }
 
 #droppableFox{
-  position: absolute;
-  bottom: 0px;
-  left: 880px;
+  /*position: absolute;
+  bottom: 0px;*/
+  /*left: 880px;*/
 
 }
 
 #droppableLizard{
-  position: absolute;
-  bottom: 0px;
-  left: 660px;
+  /*position: absolute;
+  bottom: 0px;*/
+  /*left: 660px;*/
 
 }
 
 #droppableCamel{
-  position: absolute;
-  bottom: 0px;
-  left: 440px;
+  /*position: absolute;
+  bottom: 0px;*/
+  /*left: 440px;*/
 }
 
   #droppableBeetle{
-    position: absolute;
-    bottom: 0px;
-    left: 220px;
+    /*position: absolute;
+    bottom: 0px;*/
+    /*left: 220px;*/
 
   }
 
   #droppableMeerkat{
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-
+    /*position: absolute;
+    bottom: 0px;*/
+    /*left: 0px;*/
+    margin-right: 0;
 }

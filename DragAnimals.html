@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Drag and Drop Animals</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <button id="displayButton" type="button" name="button">Display</button>
+    <div id="content">
+      <div id="animals">
+        <div class="drag" id="draggableMeerkat"></div>
+        <div class="drag" id="draggableBeetle"></div>
+        <div class="drag" id="draggableFox"></div>
+        <div class="drag" id="draggableLizard"></div>
+        <div class="drag" id="draggableCamel"></div>
+      </div>
+
+      <div id="boxes">
+        <div class="drop" id="droppableLizard">Thorny Devil</div>
+        <div class="drop" id="droppableCamel">Camel</div>
+        <div class="drop" id="droppableFox">Fennec Fox</div>
+        <div class="drop" id="droppableBeetle">Fogstand Beetle</div>
+        <div class="drop" id="droppableMeerkat">Meerkat</div>
+      </div>
+
+      <div id="success">
+        <h3 id="successMessage">You did it! Click the button to continue.</h3>
+        <a href="https://google.com"><div id="successButton"><h5>Continue</h5></div></a>
+      </div>
+    </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="touchpunch.js"></script>
+  <script type="text/javascript" src="myscript.js"></script>
+  </body>
+</html>

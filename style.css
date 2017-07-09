@@ -161,7 +161,7 @@ a{
   /*position: absolute;
   bottom: 0px;*/
   /*left: 880px;*/
-
+  margin-right: 0;
 }
 
 #droppableLizard{
@@ -188,5 +188,5 @@ a{
     /*position: absolute;
     bottom: 0px;*/
     /*left: 0px;*/
-    margin-right: 0;
+
 }

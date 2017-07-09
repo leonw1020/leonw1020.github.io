@@ -103,7 +103,7 @@ function showMessage(){
     width: "600px",
     height: "140px",
     bottom: "300px",
-    left: "240px",
+    left: "150px",
     opacity: 1
   });
 }

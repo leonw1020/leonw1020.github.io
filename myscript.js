@@ -41,6 +41,8 @@ $("#success").css({
   height: 0,
 });
 
+$(".labels").hide();
+
 $('.drag').draggable({
   containment: '#content',
   stack: ".drag, .drop",
@@ -99,6 +101,7 @@ function handleDropEvent(event, ui){
 
 function showMessage(){
   $("#success").show();
+  $(".labels").show();
   $("#success").animate({
     width: "600px",
     height: "140px",

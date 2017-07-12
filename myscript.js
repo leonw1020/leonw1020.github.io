@@ -55,21 +55,21 @@ $('#droppableFox').droppable({
   hoverClass: "hovered"
 });
 
-$('#droppableCamel').droppable({
+$('#droppableGuanaco').droppable({
   drop: handleDropEvent,
-  accept: "#draggableCamel",
+  accept: "#draggableGuanaco",
   hoverClass: "hovered"
 });
 
-$('#droppableLizard').droppable({
+$('#droppableSloth').droppable({
   drop: handleDropEvent,
-  accept: "#draggableLizard",
+  accept: "#draggableSloth",
   hoverClass: "hovered"
 });
 
-$('#droppableBeetle').droppable({
+$('#droppableWalrus').droppable({
   drop: handleDropEvent,
-  accept: "#draggableBeetle",
+  accept: "#draggableWalrus",
   hoverClass: "hovered"
 });
 

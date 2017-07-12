@@ -108,38 +108,39 @@ a{
 #draggableFox{
   /*width: 200px;
   height: 200px;*/
-  background-image: url("fennec.jpg") ;
+  background-image: url("fennecsqr.jpg") ;
   /*background-size: auto contain;
   position: absolute;*/
   top: 0;
   left: 0;
 }
 
-#draggableCamel{
+#draggableWalrus{
   /*width: 200px;
   height: 200px;*/
-  background-image: url("camel.jpg") ;
+  background-image: url("walrussqr.jpg") ;
+  /*background-size: 200px 200px;
+  position: absolute;*/
+  top: 0;
+  /*margin-right: 0;*/
+  /*left: 220px;*/
+}
+
+#draggableSloth{
+  /*width: 200px;
+  height: 200px;*/
+  background-image: url("slothsqr.jpg") ;
   /*background-size: 200px 200px;
   position: absolute;*/
   top: 0;
   margin-right: 0;
-  /*left: 220px;*/
-}
-
-#draggableLizard{
-  /*width: 200px;
-  height: 200px;*/
-  background-image: url("lizard.jpg") ;
-  /*background-size: 200px 200px;
-  position: absolute;*/
-  top: 0;
   /*left: 440px;*/
 }
 
 #draggableMeerkat{
   /*width: 200px;
   height: 200px;*/
-  background-image: url("meerkat.jpg") ;
+  background-image: url("meerkatsqr.jpg") ;
   /*background-size: 200px 200px;
   position: absolute;*/
   top: 0;
@@ -147,17 +148,17 @@ a{
   /*left: 660px;*/
 }
 
-#draggableBeetle{
+#draggableGuanaco{
   /*width: 200px;
   height: 200px;*/
-  background-image: url("beetle.jpg") ;
+  background-image: url("guanacosqr.jpg") ;
   /*background-size: 200px 200px;
   position: absolute;*/
   top: 0;
   /*left: 880px;*/
 }
 
-#droppableFox{
+#droppableWalrus{
   /*position: absolute;
   bottom: 0px;*/
   /*left: 880px;*/
